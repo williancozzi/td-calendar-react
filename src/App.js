@@ -82,7 +82,7 @@ function App() {
             <div id="modal">
                 <div >
                     <div className="container">
-                        <a href="#" onClick={event => openModal(event)}>x</a>
+                        <a onClick={event => openModal(event)}>x</a>
                         <button className="custom-button" onClick={event => addReminder('titulo 1', new Date(2020, 10, 7), 'gama', 'green')}>Add Reminder</button>
                     </div>
                 </div>
