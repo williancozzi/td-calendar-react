@@ -83,6 +83,7 @@ function App() {
                 <div >
                     <div className="container">
                         <a onClick={event => openModal(event)}>x</a>
+                        // eslint-disable-next-line
                         <button className="custom-button" onClick={event => addReminder('titulo 1', new Date(2020, 10, 7), 'gama', 'green')}>Add Reminder</button>
                     </div>
                 </div>
